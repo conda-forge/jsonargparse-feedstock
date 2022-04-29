@@ -1,5 +1,5 @@
 {% set name = "jsonargparse" %}
-{% set version = "4.7.1" %}
+{% set version = "4.7.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jsonargparse-{{ version }}.tar.gz
-  sha256: d8be3228d2ef59c8958e7dc765605467f2bece41d95c360c241e3bf1be9bd404
+  sha256: 208c85bfc3f3c32b4553583cf86f734193b760ca24d44b5ca09b52d8693ea815
 
 build:
   number: 0
