@@ -11,17 +11,26 @@ source:
   sha256: ff3fe6358f493ded4c67a3b12c3066289b0c290c6676ec49b0ed0b9c747f9145
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install .[all] -vv
 
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.6
   run:
-    - python >=3.5
+    - python >=3.6
     - pyyaml >=3.13
+    - contextvars >=2.4
+    - docstring_parser >=0.7.3
+    - dataclasses >=0.8
+    - jsonschema >=3.2.0
+    - jsonnet >=0.13.0
+    - validators >=0.14.2
+    - requests >=2.18.4
+    - fsspec >=0.8.4
+    - argcomplete >=2.0.0
 
 test:
   imports:
