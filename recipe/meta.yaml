@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.6
     - pyyaml >=3.13
-    - contextvars >=2.4
+    - contextvars >=2.4 # [py==36]
     - docstring_parser >=0.7.3
     - dataclasses >=0.8
     - jsonschema >=3.2.0
