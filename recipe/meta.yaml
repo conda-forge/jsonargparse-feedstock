@@ -12,16 +12,16 @@ source:
 
 build:
   number: 1
+  noarch: python
   script: {{ PYTHON }} -m pip install .[all] -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
-    - python >=3.6
+    - python >=3.7
     - pyyaml >=3.13
-    - contextvars >=2.4  # [py==36]
     - docstring_parser >=0.7.3
     - dataclasses >=0.8
     - jsonschema >=3.2.0
