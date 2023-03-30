@@ -1,11 +1,11 @@
-About jsonargparse
-==================
+About jsonargparse-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jsonargparse-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/omni-us/jsonargparse
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jsonargparse-feedstock/blob/main/LICENSE.txt)
 
 Summary: Parsing of command line options, yaml/jsonnet config files and/or environment variables based on argparse.
 
