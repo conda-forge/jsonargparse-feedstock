@@ -1,6 +1,6 @@
 {% set name = "jsonargparse" %}
 {% set version = "4.33.2" %}
-{% set python_min = "3.7" %}
+{% set python_min = "3.8" %}
 
 
 package:
@@ -24,14 +24,14 @@ requirements:
   run:
     - python >={{ python_min }}
     - pyyaml >=3.13
-    - docstring_parser >=0.7.3
+    - docstring_parser >=0.15
     - dataclasses >=0.8
     - jsonschema >=3.2.0
     - jsonnet >=0.13.0
     - validators >=0.14.2
     - requests >=2.18.4
     - fsspec >=0.8.4
-    - argcomplete >=2.0.0
+    - argcomplete >=3.5.1
 
 test:
   imports:
